@@ -1,0 +1,26 @@
+body{
+    padding:50px;
+    font-family: 'Slabo 27px', serif;
+    margin:0 auto;
+    max-width:800px;
+}
+a{
+    display:inline-block;
+}
+.wrapper{
+    position:relative;
+    background-color:rgba(255, 228, 225, 0.329);
+    font-size:3rem;
+    z-index:2;
+    
+}
+.back-typo{
+    font-family:sans-serif;
+    position:absolute;
+    top:0;
+    left:40%;
+    color:rgb(84, 204, 252);
+    font-weight:bolder;
+    font-size:9rem;
+    z-index:1;
+}
